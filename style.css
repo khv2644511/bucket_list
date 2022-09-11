@@ -4,37 +4,26 @@ body {
 }
 
 .wrapper {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-
-
     border: 1px solid #c3c3c3;
-    border-radius: 10px;
+    border-radius: 30px;
     width: 400px;
-    height: 450px;
     margin: 100px auto;
-    box-shadow: 0px 0px 10px gray;
+    box-shadow: 0px -2px 5px #c4c4c4;
     background-color: white;
-
-
 }
 
 .header {
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
 }
 
 .title {
-    /* height: 50px; */
-    /* text-align: center; */
-    margin: 40px auto;
+    margin: 32px auto;
     color: #ff1493;
     font-weight: bolder;
     font-size: 27px;
     border-left: 8px solid #ff1493;
     padding-left: 20px;
-
-
 }
 
 .list-container {
@@ -42,12 +31,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 1px solid red; */
-    height: 300px;
+    height: 287px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 27px;
     text-align: left;
-    /* align-content: center; */
+    box-shadow: 0px 5px 10px #c4c4c4;
+    border-radius: 0px 0px 30px 30px;
+    border-top: 1px solid #dddddd;
 }
 
 .list-container div {
@@ -57,18 +47,10 @@ body {
     border-radius: 8px;
     box-sizing: border-box;
     padding: 10px;
+    background-color: white;
 }
 
-/* .container {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: content-box;
+.list-container .click {
+    border: 4px solid #1e91ff;
+    color: #1e91ff;
 }
-
-.box {
-    border: 2px solid red;
-
-} */
